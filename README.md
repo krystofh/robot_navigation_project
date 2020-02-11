@@ -113,6 +113,24 @@ Command | Description
 ```rostopic pub -1 <<topicName>> <<messageType>> -- '<<parameters>>'``` <br><br>*e.g.*  ```rostopic pub -1 /turtle1/cmd_vel geomtery_msgs/Twist -- '[x y z]''[x y z]'``` <br>where x y z are to be replaced by the desired velocities (first linear, then rotation)<br>| - publish once a topic and finish<br>
         
 
-   
+ ## Sources - ROS and Gazebo
+- Installation https://www.theconstructsim.com/how-to-install-ros-on-ubuntu/ 
+- Udemy course https://www.udemy.com/course/ros-essentials/ 
+- Launch files in Gazebo http://gazebosim.org/tutorials?tut=ros_roslaunch
+- Gazebo in 5 minutes tutorial https://www.youtube.com/playlist?list=PLK0b4e05LnzbHiGDGTgE_FIWpOCvndtYx
+- All available Gazebo models https://bitbucket.org/osrf/gazebo_models/src/default/
+- Moving a robot in Gazebo (Odometry topic) https://www.youtube.com/watch?v=eJ4QPrYqMlw
+- Path planning tutorial https://husarion.com/tutorials/ros-tutorials/7-path-planning/
+- Map creation  https://www.youtube.com/watch?v=mYwIu4OVMR8
+- Other A* implementation in ROS https://realitybytes.blog/2018/08/17/graph-based-path-planning-a/
 
-   
+## Sources - A*
+- http://hades.mech.northwestern.edu/index.php/V-REP_Introduction
+- http://hades.mech.northwestern.edu/index.php/A*_Graph_Search_Project
+- https://www.youtube.com/watch?v=9U6GDonGFHw
+- https://www.geeksforgeeks.org/a-search-algorithm/
+- https://www.redblobgames.com/pathfinding/a-star/implementation.html
+- https://rosettacode.org/wiki/A*_search_algorithm#Python
+- https://realitybytes.blog/2018/08/17/graph-based-path-planning-a/
+- https://www.growingwiththeweb.com/2012/06/a-pathfinding-algorithm.html
+- https://medium.com/@nicholas.w.swift/easy-a-star-pathfinding-7e6689c7f7b2
